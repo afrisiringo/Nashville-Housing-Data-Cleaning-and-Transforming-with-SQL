@@ -16,7 +16,7 @@ In this project, I worked with a dataset `Raw Data - Nashville Housing.xlsx` tha
    
 2. **Populate Missing Data**: Missing values in column `PropertyAddress` were identified and filled  with appropriate values based on matching values on the same `ParcelID`.
 
-![PopulateMissingData](https://github.com/afrisiringo/NashvilleHousing-DataCleaningAndTransformationInSQLServer/assets/151942031/49d09e68-a5f4-4ae0-9502-ac6d3facbc60)
+![populate](https://github.com/afrisiringo/NashvilleHousing-DataCleaningAndTransformationInSQLServer/assets/151942031/796fabe8-d039-423b-b500-eb341c44071a)
 
 3. **Breakout out Address Columns**: The address columns `PropertyAddress` and `OwnerAddress` were split into individual columns for street address, city, and state, enabling more useful analysis.
 
