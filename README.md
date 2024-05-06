@@ -1,4 +1,4 @@
-# Nashville Housing - Data Cleaning and Transformation in SQL Server
+# Nashville Housing: Data Cleaning and Transformation in SQL Server
 
 This project demonstrates my skills in data cleaning and transformation using SQL Server. The goal was to prepare a raw dataset for analysis by performing various cleaning and transformation tasks.
 
