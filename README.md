@@ -4,7 +4,7 @@ This project demonstrates my skills in data cleaning and transformation using SQ
 
 ## Project Overview
 
-In this project, I worked with a dataset (`Raw Data - Nashville Housing`) that required cleaning and restructuring to ensure data integrity and usability. The following tasks were performed:
+In this project, I worked with a dataset `Raw Data - Nashville Housing` that required cleaning and restructuring to ensure data integrity and usability. The following tasks were performed:
 
 1. **Standardize Date Format**: `SaleDate` column were converted to a consistent format (YYYY-MM-DD) to fasilitate data analysis and integration with other systems.
    
@@ -12,7 +12,7 @@ In this project, I worked with a dataset (`Raw Data - Nashville Housing`) that r
 
 3. **Breakout out Address Columns**: The address columns (i.e. `PropertyAddress` and `OwnerAddress`) were split into individual columns for street address, city, and state, enabling more useful analysis.
 
-4. **Standardize Values**: Values in column "SoldAsVacant" consisted of various representation (Y, Yes, N, No). This values were standardize to a consistent format (Yes/No) for better analysis.
+4. **Standardize Values**: Values in column `SoldAsVacant` consisted of various representation (Y, Yes, N, No). This values were standardize to a consistent format (Yes/No) for better analysis.
 
 5. **Remove Duplicates**: Duplicates records were identified and removed from the dataset to ensure data integrity and accurate analysis.
 
@@ -34,7 +34,7 @@ In this project, I worked with a dataset (`Raw Data - Nashville Housing`) that r
 
 ## Usage
 
-The SQL script `data_cleaning.sql` contains the queries used for this project. To run the script, you will need access to a SQL Server instance and the source database containing the raw dataset.
+The SQL script `Data Prep - Nashville Housing.sql` contains the queries used for this project. To run the script, you will need access to a SQL Server instance and the raw dataset `Raw Data - Nashville Housing`
 
 ## Conclusion
 
