@@ -14,15 +14,25 @@ In this project, I worked with a dataset `Raw Data - Nashville Housing.xlsx` tha
 
 ![Date Convert](https://github.com/afrisiringo/NashvilleHousing-DataCleaningAndTransformationInSQLServer/assets/151942031/d5b76fb2-32d0-47d1-8e35-6c6a1ebd0b1d)
    
-3. **Populate Missing Data**: Missing values in column `PropertyAddress` were identified and filled  with appropriate values based on matching values on the same `ParcelID`.
+2. **Populate Missing Data**: Missing values in column `PropertyAddress` were identified and filled  with appropriate values based on matching values on the same `ParcelID`.
 
-4. **Breakout out Address Columns**: The address columns `PropertyAddress` and `OwnerAddress` were split into individual columns for street address, city, and state, enabling more useful analysis.
+![PopulateMissingData](https://github.com/afrisiringo/NashvilleHousing-DataCleaningAndTransformationInSQLServer/assets/151942031/49d09e68-a5f4-4ae0-9502-ac6d3facbc60)
 
-5. **Standardize Values**: Values in column `SoldAsVacant` consisted of various representation (Y, Yes, N, No). This values were standardize to a consistent format (Yes/No) for better analysis.
+3. **Breakout out Address Columns**: The address columns `PropertyAddress` and `OwnerAddress` were split into individual columns for street address, city, and state, enabling more useful analysis.
 
-6. **Remove Duplicates**: Duplicates records were identified and removed from the dataset to ensure data integrity and accurate analysis.
+![Break out columns](https://github.com/afrisiringo/NashvilleHousing-DataCleaningAndTransformationInSQLServer/assets/151942031/9d45d3a0-3df9-44b8-af98-91127f62ebd5)
 
-7. **Reorder Columns**: The column order in table was restructured to improve data organization and accessibility.
+4. **Standardize Values**: Values in column `SoldAsVacant` consisted of various representation (Y, Yes, N, No). This values were standardize to a consistent format (Yes/No) for better analysis.
+
+![standardize vaalues](https://github.com/afrisiringo/NashvilleHousing-DataCleaningAndTransformationInSQLServer/assets/151942031/d1eaaebd-bc3b-4bee-9337-92b780b70ecf)
+
+5. **Remove Duplicates**: Duplicates records were identified and removed from the dataset to ensure data integrity and accurate analysis.
+
+![remove duplicates](https://github.com/afrisiringo/NashvilleHousing-DataCleaningAndTransformationInSQLServer/assets/151942031/6860d11f-f7f1-4282-af44-ecc85abffedc)
+
+6. **Reorder Columns**: The column order in table was restructured to improve data organization and accessibility.
+
+![reorder columns](https://github.com/afrisiringo/NashvilleHousing-DataCleaningAndTransformationInSQLServer/assets/151942031/969c9905-3d36-41af-9a3e-e4c25f229906)
 
 ## Workflow
 
