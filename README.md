@@ -4,7 +4,7 @@ This project demonstrates my skills in data cleaning and transformation using SQ
 
 ## Usage
 
-The SQL script `Data Prep - Nashville Housing.sql` contains the queries used for this project. To run the script, you will need access to a SQL Server instance and the raw dataset `Raw Data - Nashville Housing.xlsx`. The final result dataset was exported into excel file `Data Cleaned - Nashville Housing.xlsx`.
+The SQL script `Data Prep - Nashville Housing.sql` contains the queries used for this project. To run the script, you will need to access SQL Server instance and the raw dataset `Raw Data - Nashville Housing.xlsx`. The final result dataset was exported into excel file `Data Cleaned - Nashville Housing.xlsx`.
 
 ## Project Overview
 
