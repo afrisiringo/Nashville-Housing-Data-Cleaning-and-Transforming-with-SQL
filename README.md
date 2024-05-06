@@ -11,16 +11,18 @@ The SQL script `Data Prep - Nashville Housing.sql` contains the queries used for
 In this project, I worked with a dataset `Raw Data - Nashville Housing.xlsx` that required cleaning and restructuring to ensure data integrity and usability. The following tasks were performed:
 
 1. **Standardize Date Format**: `SaleDate` column were converted to a consistent format (YYYY-MM-DD) to fasilitate data analysis and integration with other systems.
+
+   ![Alt Text]('Images/Date Convert')
    
-2. **Populate Missing Data**: Missing values in column `PropertyAddress` were identified and filled  with appropriate values based on matching values on the same `ParcelID`.
+3. **Populate Missing Data**: Missing values in column `PropertyAddress` were identified and filled  with appropriate values based on matching values on the same `ParcelID`.
 
-3. **Breakout out Address Columns**: The address columns `PropertyAddress` and `OwnerAddress` were split into individual columns for street address, city, and state, enabling more useful analysis.
+4. **Breakout out Address Columns**: The address columns `PropertyAddress` and `OwnerAddress` were split into individual columns for street address, city, and state, enabling more useful analysis.
 
-4. **Standardize Values**: Values in column `SoldAsVacant` consisted of various representation (Y, Yes, N, No). This values were standardize to a consistent format (Yes/No) for better analysis.
+5. **Standardize Values**: Values in column `SoldAsVacant` consisted of various representation (Y, Yes, N, No). This values were standardize to a consistent format (Yes/No) for better analysis.
 
-5. **Remove Duplicates**: Duplicates records were identified and removed from the dataset to ensure data integrity and accurate analysis.
+6. **Remove Duplicates**: Duplicates records were identified and removed from the dataset to ensure data integrity and accurate analysis.
 
-6. **Reorder Columns**: The column order in table was restructured to improve data organization and accessibility.
+7. **Reorder Columns**: The column order in table was restructured to improve data organization and accessibility.
 
 ## Workflow
 
