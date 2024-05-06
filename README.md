@@ -12,7 +12,7 @@ In this project, I worked with a dataset `Raw Data - Nashville Housing.xlsx` tha
 
 1. **Standardize Date Format**: `SaleDate` column were converted to a consistent format (YYYY-MM-DD) to fasilitate data analysis and integration with other systems.
 
-![Alt Text]('Images/Date Convert.jpg')
+![Alt Text]('Images/https://github.com/afrisiringo/NashvilleHousing-DataCleaningAndTransformationInSQLServer/blob/main/Images/Date%20Convert.jpg')
    
 3. **Populate Missing Data**: Missing values in column `PropertyAddress` were identified and filled  with appropriate values based on matching values on the same `ParcelID`.
 
