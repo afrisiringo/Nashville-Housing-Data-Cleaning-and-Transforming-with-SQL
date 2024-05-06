@@ -30,7 +30,7 @@ In this project, I worked with a dataset `Raw Data - Nashville Housing.xlsx` tha
 
 ![remove duplicates](https://github.com/afrisiringo/NashvilleHousing-DataCleaningAndTransformationInSQLServer/assets/151942031/6860d11f-f7f1-4282-af44-ecc85abffedc)
 
-6. **Reorder Columns**: The column order in table was restructured to improve data organization and accessibility.
+6. **Reorder Columns**: The column order in table was restructured to improve data organization and accessibility. This was done by accessing the table design.
 
 ![reorder columns](https://github.com/afrisiringo/NashvilleHousing-DataCleaningAndTransformationInSQLServer/assets/151942031/969c9905-3d36-41af-9a3e-e4c25f229906)
 
