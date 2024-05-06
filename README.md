@@ -14,7 +14,7 @@ In this project, I worked with a dataset `Raw Data - Nashville Housing.xlsx` tha
    
 2. **Populate Missing Data**: Missing values in column `PropertyAddress` were identified and filled  with appropriate values based on matching values on the same `ParcelID`.
 
-3. **Breakout out Address Columns**: The address columns (i.e. `PropertyAddress` and `OwnerAddress`) were split into individual columns for street address, city, and state, enabling more useful analysis.
+3. **Breakout out Address Columns**: The address columns `PropertyAddress` and `OwnerAddress` were split into individual columns for street address, city, and state, enabling more useful analysis.
 
 4. **Standardize Values**: Values in column `SoldAsVacant` consisted of various representation (Y, Yes, N, No). This values were standardize to a consistent format (Yes/No) for better analysis.
 
