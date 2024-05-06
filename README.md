@@ -1,27 +1,26 @@
 # Nashville Housing - Data Cleaning and Transformation in SQL Server
 
-This project demonstrates my skills in data cleaning and transformation using SQL Server. The goal was to prepare "Raw Data - Nashville Housing" for analysis by performing various cleaning and transformation tasks.
+This project demonstrates my skills in data cleaning and transformation using SQL Server. The goal was to prepare a raw dataset for analysis by performing various cleaning and transformation tasks.
 
 ## Project Overview
 
-In this project, I worked with a dataset that required cleaning and restructuring to ensure data integrity and usability. The following tasks were performed:
+In this project, I worked with a dataset (`Raw Data - Nashville Housing`) that required cleaning and restructuring to ensure data integrity and usability. The following tasks were performed:
 
-1. **Standardize Date Format**: "SaleDate" column were converted to a consistent format (YYYY-MM-DD) to fasilitate data analysis and integration with other systems.
+1. **Standardize Date Format**: `SaleDate` column were converted to a consistent format (YYYY-MM-DD) to fasilitate data analysis and integration with other systems.
    
-2. **Populate Missing Data**: Missing values in column "PropertyAddress" were identified and filled  with appropriate values based on matching values on the same "ParcelID".
+2. **Populate Missing Data**: Missing values in column `PropertyAddress` were identified and filled  with appropriate values based on matching values on the same `ParcelID`.
 
-3. **Breakout out Address Columns**: The address columns (i.e. "PropertyAddress" and "OwnerAddress") were split into individual columns for street address, city, and state, enabling more useful analysis.
+3. **Breakout out Address Columns**: The address columns (i.e. `PropertyAddress` and `OwnerAddress`) were split into individual columns for street address, city, and state, enabling more useful analysis.
 
-4. **Standardize Values**: Values in column "SoldAsVacant" consisted of various representation (Y, Yes, N, No). This values were standardize to a consistent format (Yes/No) for better consistency.
+4. **Standardize Values**: Values in column "SoldAsVacant" consisted of various representation (Y, Yes, N, No). This values were standardize to a consistent format (Yes/No) for better analysis.
 
 5. **Remove Duplicates**: Duplicates records were identified and removed from the dataset to ensure data integrity and accurate analysis.
 
-6. **Reorder Columns**: The column order in table was restructured to imporove data organization and accessibility.
+6. **Reorder Columns**: The column order in table was restructured to improve data organization and accessibility.
 
 ## Workflow
 
-
-1. **Create Temporary Table**: A temporary table was created to hold the cleaned and transformed data.
+1. **Create Temporary Table**: A temporary table was created to hold the cleaned and transformed data in order to avoid any potential damage to the original data.
 2. **Perform Data Cleaning and Transformation**: SQL queries were executed to clean and transform the data, storing the results in the temporary table.
 3. **Create Permanent Table**: After completing the cleaning and transformation tasks, a new permanent table was created based on the temporary table, serving as the final cleaned dataset.
 
