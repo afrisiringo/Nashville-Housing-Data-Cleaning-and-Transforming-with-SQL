@@ -2,9 +2,13 @@
 
 This project demonstrates my skills in data cleaning and transformation using SQL Server. The goal was to prepare a raw dataset for analysis by performing various cleaning and transformation tasks.
 
+## Usage
+
+The SQL script `Data Prep - Nashville Housing.sql` contains the queries used for this project. To run the script, you will need access to a SQL Server instance and the raw dataset `Raw Data - Nashville Housing.xlsx`. The final result dataset was exported into excel file `Data Cleaned - Nashville Housing.xlsx`.
+
 ## Project Overview
 
-In this project, I worked with a dataset `Raw Data - Nashville Housing` that required cleaning and restructuring to ensure data integrity and usability. The following tasks were performed:
+In this project, I worked with a dataset `Raw Data - Nashville Housing.xlsx` that required cleaning and restructuring to ensure data integrity and usability. The following tasks were performed:
 
 1. **Standardize Date Format**: `SaleDate` column were converted to a consistent format (YYYY-MM-DD) to fasilitate data analysis and integration with other systems.
    
@@ -31,10 +35,6 @@ In this project, I worked with a dataset `Raw Data - Nashville Housing` that req
 - **Data Transformation**: Skilled in restructuring and reformatting data to meet specific requirements and improve data usability.
 - **Attention to Detail**: Carefully identified and addressed data quality issues to ensure the integrity of the cleaned dataset.
 - **Workflow Management**: Implemented a structured workflow to maintain data integrity and create a reliable final dataset.
-
-## Usage
-
-The SQL script `Data Prep - Nashville Housing.sql` contains the queries used for this project. To run the script, you will need access to a SQL Server instance and the raw dataset `Raw Data - Nashville Housing`
 
 ## Conclusion
 
